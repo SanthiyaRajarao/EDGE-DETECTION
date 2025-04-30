@@ -30,7 +30,7 @@ Reg No:212223230192
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread('image.jpg')  
+image = cv2.imread('Documents/DIPT/fort.jpg')  
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 sobel_x = cv2.Sobel(gray_image, cv2.CV_64F, 1, 0, ksize=5) 
 sobel_y = cv2.Sobel(gray_image, cv2.CV_64F, 0, 1, ksize=5)
@@ -53,17 +53,20 @@ plt.show()
 ## Output:
 ### SOBEL EDGE DETECTOR
 
-![image](https://github.com/user-attachments/assets/755ad521-1415-41cf-9f3e-9b45db03c790)
+![image](https://github.com/user-attachments/assets/fde992c1-2c1d-46f9-ad44-e03de0e69e7c)
+
 
 
 ### LAPLACIAN EDGE DETECTOR
 
-![image](https://github.com/user-attachments/assets/0ecb3d14-f6f1-4507-b5f0-c72134b224b9)
+![image](https://github.com/user-attachments/assets/1e214066-512a-463a-975d-2f732a76e7cf)
+
 
 
 ### CANNY EDGE DETECTOR
 
-![image](https://github.com/user-attachments/assets/50a665f5-e524-444e-b683-29b1c4b9e35f)
+![image](https://github.com/user-attachments/assets/829121cd-0e52-492e-8d47-6b5e4fe7df46)
+
 
 
 ## Result:
